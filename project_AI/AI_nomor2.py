@@ -29,7 +29,7 @@ def load_dataset(folder_dataset):
             y.append(label)
     return np.array(X), np.array(y)
 
-folder_dataset = 'D:/Downloads/project_AI/dataset'
+folder_dataset = 'D:/Downloads/AI_Project_Akhir/project_AI/dataset/'
 
 print("Loading dataset dan ekstrak fitur...")
 X_train, y_train = load_dataset(folder_dataset)
